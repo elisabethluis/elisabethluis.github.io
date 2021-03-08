@@ -1,0 +1,93 @@
+<body{
+  font-family: Helvetica ;  sans-serif;
+  color: navy blue;
+
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1000px;
+  width: 100%;
+  display: inline-block;
+
+}
+
+
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: center;
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.hero_content img{
+	width:100%;
+	height: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid;
+	border-color: #0471AF;
+	font-size: 28px;
+	text-align: center;
+	overflow: auto;
+}
+
+
+
+/* SIDEBAR COMPONENT-- why is the border not showing? */
+
+.side_bar{
+  height:100%;
+  width: 40%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding: 10px;
+  border: 5px solid;
+  border-color: skyblue;
+  text-align: center;
+  box-sizing: border-box;
+ 
+
+}
+
+
+.side_bar .section{
+	width: 50%;
+	height: 50%;
+
+   color: navy;
+   text-transform: uppercase;
+   font-weight: bold;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.side_bar img{
+	text-align: center;
+	width: 80%;
+	float: right;
+	
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
