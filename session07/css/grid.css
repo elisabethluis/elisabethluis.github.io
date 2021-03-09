@@ -24,6 +24,7 @@
   float: left;
   margin: 0% 0%;
   min-height: 0.125rem;
+  height: 100%;
 }
 
 
@@ -89,14 +90,31 @@
   }
 
 /* This is clearfix, clearing content after each row*/
-.row::after {
+.row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
 div [class^="col"] {
-    height:100px;
-    border: 1px solid white;
-   
+  height:100px;
+  border: 1px solid white;
+    
+  
 }
+
+/* gutter width on all col except the last */
+div [class^="col"] {
+  padding-right: 20px;
+  
+
+}
+
+div [class^="col"]:last-of-type {
+  padding-right: 0px;
+}
+
+
+
+
+
