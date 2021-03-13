@@ -1,0 +1,158 @@
+<body{
+  font-family: Helvetica ;  sans-serif;
+  color: navy blue;
+
+}
+
+.topnav{
+
+  background-color: rgb(21, 182, 229);
+  height: 100px;
+  text-align: left;
+
+}
+
+
+.outer{
+  text-align: center;
+
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+
+}
+
+
+
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: left;
+  font-color: navy;
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 30px;
+  font-color: navy;
+}
+
+.hero_content img{
+	width:100%;
+
+	
+}
+
+
+
+/* SIDEBAR COMPONENT */
+
+.side_bar{
+  height:100%;
+  width: 500px;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding: 10px;
+
+  text-align: left;
+ border: 2px solid;
+   border-color: navy;
+ 
+
+}
+
+
+.side_bar .section{
+	color: navy;
+   text-transform: uppercase;
+   font-family: "helvetica";
+   font-weight: bold;
+   font-size: 18px;
+   text-align: right;
+   
+}
+
+.side_bar img{
+	width: 500px;
+	
+	float: left;
+	
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+   
+}
+
+
+
+
+/* amimation */
+
+
+
+
+
+
+.side_bar:hover{
+  animation-fill-mode: forwards;
+  animation-name: change;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+
+
+}
+
+@keyframes change{
+
+  from {transform: scale(1,1);}
+  to {transform: scale(1.5,1.5);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
