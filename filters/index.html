@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: saturate(0%) opacity(20%) ; 
+      filter: saturate(0%) opacity(20%)  ;
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 1s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: saturate(150%) opacity(100%); 
+	        filter:  saturate(150%) opacity(100%);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/hal.jpg" alt="hal">
+
+</body>
+</html>
